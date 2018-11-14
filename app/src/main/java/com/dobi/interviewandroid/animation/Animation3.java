@@ -27,7 +27,7 @@ public class Animation3 extends Activity {
 		iv.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(getApplicationContext(), "萌萌哒~么么", 0).show();
+				Toast.makeText(getApplicationContext(), "萌萌哒~么么", Toast.LENGTH_LONG).show();
 			}
 		});
 //      补间动画
